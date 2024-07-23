@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="habib" on="10/30/23||02:32:10" using="Simscape Multibody Link Version 7.0" from="Autodesk Inventor 2021 (Build 250183000, 183)"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="Assembly9.iam" uid="Assembly9.iam_{76D0C189-458F-2F02-738F-53BEB777281C}" version="{CED66409-0733-ED23-E876-41C62C5A92B6}">
+<AssemblyFile name="Assembly9.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="tableiso:1" grounded="true" uid="tableiso:1" entityUid="tableiso.ipt_{27E4F878-4914-F1F4-60D0-7E9FE2F503BF}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.0121212229069747 0.27878787463361432 -12.909384077883608</Translation>
+</Transform>
+</Instance>
+<Instance name="cartisolated:1" uid="cartisolated:1" entityUid="cartisolated.ipt_{2EF9BFC3-407A-D440-33E4-368DD916C7A0}">
+<Transform>
+<Rotation>1 1.5019787635413534e-15 -6.9127975415810536e-16 -1.5056244767532566e-15 0.9999859314210312 -0.005304428339890534 6.8330289011505147e-16 0.005304428339890534 0.9999859314210312</Rotation>
+<Translation>-20.15693563105858 5.0549464720631807 18.658497453029064</Translation>
+</Transform>
+</Instance>
+<Instance name="cuboid:1" uid="cuboid:1" entityUid="cuboid.ipt_{2CF62B95-41BE-21EC-2A38-3987372B67B0}">
+<Transform>
+<Rotation>0.99999999999999956 2.7755575615628884e-16 1.0544741776319752e-15 8.8817841970012563e-16 0.99999999999999956 -1.9024863670377881e-16 -2.4980018054066037e-16 3.4694469519536142e-16 1.0000000000000002</Rotation>
+<Translation>7.3263710499651316 -32.562527988980008 37.9595347802098</Translation>
+</Transform>
+</Instance>
+<Instance name="feedingpressisolated:1" uid="feedingpressisolated:1" entityUid="feedingpressisolated.ipt_{499E4CE8-4E2E-581E-3F25-0980184274A1}">
+<Transform>
+<Rotation>8.8817841970020254e-16 1 3.396110241792549e-15 1.0000000000000007 -8.8817841970012563e-16 -2.3037127760971998e-14 -2.3037127760971998e-14 3.3961102417925703e-15 -1.0000000000000007</Rotation>
+<Translation>26.060000262624179 -29.314853051142521 -13.673220685040066</Translation>
+</Transform>
+</Instance>
+<Instance name="gripperrrisolated:1" uid="gripperrrisolated:1" entityUid="gripperrrisolated.ipt_{6EFBDA0D-4C52-8D87-7883-6A9D07F15BE0}">
+<Transform>
+<Rotation>0.99999910121633762 -0.0013407335742833856 -1.7009488842379946e-15 0.0013407147120672105 0.99998503265001215 -0.0053044283398906928 7.111825169372661e-06 0.0053044235723571599 0.99998593142102998</Rotation>
+<Translation>-6.3266600126129955 27.859827515732896 12.364706612255407</Translation>
+</Transform>
+</Instance>
+<Instance name="CARTESIAAAN:1" uid="CARTESIAAAN:1" entityUid="CARTESIAAAN.ipt_{29F7D5C3-4A11-A69A-FD39-F18C6B9EA997}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.090909091877862558 2.5053556276408742 -14.909384077883608</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Mate:1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tableiso:1</Uid>
+</InstancePath>
+<Position>-32.004053183992312 49.312322306590715 1</Position>
+<Axis>1.1787049093461599e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CARTESIAAAN:1</Uid>
+</InstancePath>
+<Position>-31.0828410529632 38.119904095691751 3</Position>
+<Axis>-1.8491472504990077e-16 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tableiso:1</Uid>
+</InstancePath>
+<Position>18.248639943496691 49.682863020893414 1</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CARTESIAAAN:1</Uid>
+</InstancePath>
+<Position>19.169852074525792 38.122569588462746 3</Position>
+<Axis>2.24820162486594e-15 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CARTESIAAAN:1</Uid>
+</InstancePath>
+<Position>22.1615918160572 35.718569588462799 31.0707502897734</Position>
+<Axis>-1 8.3801930061170985e-16 -4.2600788599467691e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cartisolated:1</Uid>
+</InstancePath>
+<Position>17.487878787749299 33.155266249919812 -2.6730385809062973</Position>
+<Axis>-1 -7.2164496600636625e-16 2.6192931410929343e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cartisolated:1</Uid>
+</InstancePath>
+<Position>14.987878787749599 22.7515151477673 -18.016300000000001</Position>
+<Axis>-8.8712836905039772e-16 -1.6653345369377348e-16 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gripperrrisolated:1</Uid>
+</InstancePath>
+<Position>1.1575757699115687 -0.021212120896034747 -2.5000000000000036</Position>
+<Axis>0 0 1.0000000000000009</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Mate:5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>feedingpressisolated:1</Uid>
+</InstancePath>
+<Position>-5.5790000791462759 -0.26984496035199612 -5.0696009397506661</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tableiso:1</Uid>
+</InstancePath>
+<Position>13.606117406018997 -35.172641004922262 4.3057643325943111</Position>
+<Axis>1 -8.8817841970012395e-16 3.3961102417925691e-15</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+<Joints>
+</Joints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="CARTESIAAAN.ipt" uid="CARTESIAAAN.ipt_{29F7D5C3-4A11-A69A-FD39-F18C6B9EA997}" version="{A38A5B60-7CC4-70BE-E7B9-81C164E6FB87}">
+<PartFile name="CARTESIAAAN.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>1.8691727204758704</Mass>
+<CenterOfMass>-7.9635242824995913 39.922248545398141 23.009437166406837</CenterOfMass>
+<Inertia>279.02659983674295 1440.4947431756273 1177.0102494600294 8.9381288482409431 28.364564749177138 -2.1436858958045488</Inertia>
+</MassProperties>
+<GeometryFile name="CARTESIAAAN_ipt_f68638d9.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cartisolated.ipt" uid="cartisolated.ipt_{2EF9BFC3-407A-D440-33E4-368DD916C7A0}" version="{C2903EC3-85BB-EFA2-0A38-2FF0DA1E76DB}">
+<PartFile name="cartisolated.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>2.2412351265277826</Mass>
+<CenterOfMass>14.987713060499317 27.157323358413926 -0.21408585781224918</CenterOfMass>
+<Inertia>346.46139114120581 329.27518630648029 83.315020481133828 31.735997396500771 0.010087082581831055 -0.0016276172845391557</Inertia>
+</MassProperties>
+<GeometryFile name="cartisolated_ipt_e7d2a6c5.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cuboid.ipt" uid="cuboid.ipt_{2CF62B95-41BE-21EC-2A38-3987372B67B0}" version="{28CC6BC7-8891-865E-7C79-BFD3E1D5C3DE}">
+<PartFile name="cuboid.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.38400000000000001</Mass>
+<CenterOfMass>2 -2 1.5</CenterOfMass>
+<Inertia>0.80000000000000004 0.80000000000000004 1.024 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="cuboid_ipt_9419c504.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="feedingpressisolated.ipt" uid="feedingpressisolated.ipt_{499E4CE8-4E2E-581E-3F25-0980184274A1}" version="{E71C7774-6280-5305-CC2B-84CB501BCF33}">
+<PartFile name="feedingpressisolated.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.052312864250451882</Mass>
+<CenterOfMass>-5.5790000791525536 -8.0111020927368468 -5.0696062515745774</CenterOfMass>
+<Inertia>0.88817311897219586 0.044241896073379396 0.8880036702383568 -1.0167007458221632e-06 0 -4.8417300149594667e-08</Inertia>
+</MassProperties>
+<GeometryFile name="feedingpressisolated_ipt_47007b5f.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gripperrrisolated.ipt" uid="gripperrrisolated.ipt_{6EFBDA0D-4C52-8D87-7883-6A9D07F15BE0}" version="{A6D5DD7F-56A8-444D-E954-60D0265344DE}">
+<PartFile name="gripperrrisolated.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.57318033662361767</Mass>
+<CenterOfMass>1.1551694550009184 -1.2164721335329063 -0.41287552243950848</CenterOfMass>
+<Inertia>9.6534712107570115 11.716247673269381 16.893363881654444 -1.9671588448934261 -0.00075910547920682346 -0.0083196681543939808</Inertia>
+</MassProperties>
+<GeometryFile name="gripperrrisolated_ipt_96b95083.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tableiso.ipt" uid="tableiso.ipt_{27E4F878-4914-F1F4-60D0-7E9FE2F503BF}" version="{BE670A31-1823-04CE-C2FE-925D07B3AADD}">
+<PartFile name="tableiso.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>9.9590760561657543</Mass>
+<CenterOfMass>-0.97981949320949424 -6.4523329598634342 -0.66622626613008029</CenterOfMass>
+<Inertia>8519.7095660610375 4306.6391229796382 12579.529161198428 277.63226379226427 -57.429758286455851 444.55175131777719</Inertia>
+</MassProperties>
+<GeometryFile name="tableiso_ipt_14615452.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
